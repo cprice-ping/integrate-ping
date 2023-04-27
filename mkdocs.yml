@@ -1,7 +1,7 @@
 site_name: PingIdentity Knowledge Base
 repo_name: cprice-ping/integrate-ping
 repo_url: https://github.com/cprice-ping/integrate-ping
-site_url: https://kb.pingidentity.cloud/
+site_url: https://cprice-ping.github.io/integrate-ping/
 copyright: © Copyright 2023 Ping Identity
 extra_css:
   - mkdocs/overrides/stylesheets/extra.css
