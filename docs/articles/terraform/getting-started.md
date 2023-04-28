@@ -7,7 +7,7 @@ tags:
   - pingone
 ---
 
-[Terraform](https://www.terraform.io) is an Open Source tool from Hasicorp that has become the standard in delivering [Infrastructure-as-Code](https://www.terraform.io/use-cases/infrastructure-as-code).
+[Terraform](https://www.terraform.io) is an Open Source tool from Hashicorp that has become the standard in delivering [Infrastructure-as-Code](https://www.terraform.io/use-cases/infrastructure-as-code).
 
 Through the use of Providers, Terraform allows you to describe a *complete* configuration set, comprised of multiple technologies into a single, standard format [Hashicorp Configuration Language](https://learn.hashicorp.com/collections/terraform/configuration-language)
 
