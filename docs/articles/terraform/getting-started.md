@@ -5,7 +5,6 @@ author: Chris Price
 tags:
   - terraform
   - pingone
-layout: layouts/post.njk
 ---
 
 [Terraform](https://www.terraform.io) is an Open Source tool from Hasicorp that has become the standard in delivering [Infrastructure-as-Code](https://www.terraform.io/use-cases/infrastructure-as-code).
@@ -16,14 +15,13 @@ Through the use of Providers, Terraform allows you to describe a *complete* conf
 
 There are a few Terraform providers that allow you to configure Ping services.
 
-(Note: **None** of these are supported yet by Product, and are at varying levels of completeness)
+* [PingOne](https://registry.terraform.io/providers/pingidentity/pingone/latest/docs) (Ping supported)
+* [DaVinci](https://registry.terraform.io/providers/samir-gandhi/davinci/latest/docs) (Ping supported)
+* [Ping Directory](https://registry.terraform.io/providers/pingidentity/pingdirectory/latest/docs) (Ping supported)
+* [PingFederate](https://registry.terraform.io/providers/iwarapter/pingfederate/latest/docs) (Community supported)
+* [PingAccess](https://registry.terraform.io/providers/iwarapter/pingaccess/latest/docs) (Community supported)
 
-* [PingOne](https://registry.terraform.io/providers/pingidentity/pingone/latest/docs)
-* [DaVinci](https://registry.terraform.io/providers/samir-gandhi/davinci/latest/docs)
-* [PingFederate](https://registry.terraform.io/providers/iwarapter/pingfederate/latest/docs)
-* [PingAccess](https://registry.terraform.io/providers/iwarapter/pingaccess/latest/docs)
-
-By combining Providers (along with others, like [Kubernetes](https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs)), you can deploy and manage a the entire configuration needed to support your applications that are integrating with Ping services
+By combining Providers (along with others, like [Kubernetes](https://registry.terraform.io/providers/hashicorp/kubernetes/latest) and [Helm](https://registry.terraform.io/providers/hashicorp/helm/latest)), you can deploy and manage a the entire configuration needed to support your applications that are integrating with Ping services
 
 ## Installing Terraform
 

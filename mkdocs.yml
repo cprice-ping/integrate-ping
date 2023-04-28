@@ -56,4 +56,5 @@ nav:
       - Home: "./README.md"     
       - Contributing: "./CONTRIBUTING.md"
   - Articles:
-      - Terraform - Getting Started: "./articles/terraform/getting-started.md"
+      - Terraform:
+        - Getting Started: "./articles/terraform/getting-started.md"
